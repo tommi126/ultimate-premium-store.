@@ -1,0 +1,30 @@
+version: '3.8'
+services:
+  web:
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      - DATABASE_URL=postgres://postgres:postgres@db:5432/digital_store
+      - STRIPE_SECRET_KEY=sk_test_YOUR_KEY
+      - STRIPE_WEBHOOK_SECRET=whsec_YOUR_SECRET
+      - SMTP_HOST=smtp.example.com
+      - SMTP_PORT=587
+      - SMTP_USER=user
+      - SMTP_PASS=pass
+      - EMAIL_FROM=noreply@example.com
+      - ADMIN_USER=admin
+      - ADMIN_PASS=changeme
+      - BASE_URL=http://localhost:3000
+    depends_on:
+      - db
+  db:
+    image: postgres:15-alpine
+    environment:
+      POSTGRES_DB: digital_store
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+volumes:
+  pgdata:
