@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Video Corso: Come Creare un Business Online",
+    "price": 49.00,
+    "image": "https://images.unsplash.com/photo-1556761175-4b46a572b786"
+  },
+  {
+    "id": 2,
+    "name": "eBook: Segreti del Marketing Digitale 2025",
+    "price": 27.00,
+    "image": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f"
+  },
+  {
+    "id": 3,
+    "name": "Mini Corso: Facebook Ads per Principianti",
+    "price": 19.00,
+    "image": "https://images.unsplash.com/photo-1605902711622-cfb43c4437c9"
+  },
+  {
+    "id": 4,
+    "name": "Template Premium per Siti Web",
+    "price": 59.00,
+    "image": "https://images.unsplash.com/photo-1607083206963-5a7e1d50e3c2"
+  },
+  {
+    "id": 5,
+    "name": "Corso Completo di Copywriting",
+    "price": 97.00,
+    "image": "https://images.unsplash.com/photo-1581090700227-4c4f50d3b2d3"
+  }
+]
