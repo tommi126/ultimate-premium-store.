@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Video Guida: Diventa Esperto di AI",
+    "price": 29.99,
+    "image": "https://images.unsplash.com/photo-1581091215360-03fe56d9a6f1"
+  },
+  {
+    "id": 2,
+    "name": "Ebook: Segreti del Dropshipping",
+    "price": 19.90,
+    "image": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f"
+  },
+  {
+    "id": 3,
+    "name": "Corso Premium: Marketing Online",
+    "price": 49.00,
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085"
+  },
+  {
+    "id": 4,
+    "name": "Template Sito Web Professionale",
+    "price": 15.00,
+    "image": "https://images.unsplash.com/photo-1505685296765-3a2736de412f"
+  }
+]
